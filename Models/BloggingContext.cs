@@ -14,7 +14,7 @@ namespace mvc.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer(@"Server=localhost;User Id=SA;Password=P@ssw0rd;Database=Blogging;Trusted_Connection=False;");
+                optionsBuilder.UseSqlServer(@"Server=mssql-server-linux;User Id=SA;Password=P@ssw0rd2000;Database=Blogging;Trusted_Connection=False;");
              }
         }
 
