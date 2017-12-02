@@ -1,9 +1,16 @@
 # .net core mvc with EF connecting to mssql running on RHE
-
+<div>
+for the application to un, we need to create the blogging database
+</div>
+<h3>
 Create the database
+</h3>
+<div>
 login to sql server using CLI and create the following database
+</div>
+<strong>
 $ sqlcmd -S localhost -U SA -P ‘P@ssw0rd’
-
+</strong>
 <br/>
 CREATE DATABASE [Blogging];
 <br/>
